@@ -1,3 +1,5 @@
+import random
+
 	# INSTRUCTIONS
 
 	# In case it is not clear, the Question appears first, then examples, then any hints and finally the function that you need to complete appears underneath:
@@ -146,7 +148,13 @@ def four(input1, input2):
 	# The random module contains a function called randint.
 
 def five():
-    return []
+	output = []
+	for i in range(5):
+		output = output.insert(1, random.randint(100,200))
+
+	return output
+
+print(fve())
 
 	# <QUESTION 6>
 
