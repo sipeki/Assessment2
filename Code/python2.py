@@ -215,8 +215,24 @@ def six(input):
 	# There is a function for lists called sort.
 	# Use the cli to access the documentation help(list.sort)
 
+
 def seven(a, b, c):
-	return False
+
+	output = False
+	list = []
+	list.insert(0, a)
+	list.insert(1, b)
+	list.insert(2, c)
+
+	list = sorted(list)
+
+	if list[1] - list[0] == list[2] - list[1]:
+		output = True
+
+	return output
+
+
+
 
 	# <QUESTION 8>
 
