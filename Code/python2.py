@@ -161,7 +161,7 @@ def five():
 
 	return output
 
-print(five())
+
 
 
 	# <QUESTION 6>
@@ -181,7 +181,14 @@ print(five())
 	# There are no hints for this question.
     
 def six(input):
-	return False
+	output = False
+	if input[(len(input) - 2):len(input)] == "py":
+		output = True
+
+
+	return output
+
+
 
 	# <QUESTION 7>
 
