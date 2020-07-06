@@ -149,12 +149,13 @@ def four(input1, input2):
 
 def five():
 	output = []
+
 	for i in range(5):
-		output = output.insert(1, random.randint(100,200))
+		output.insert(i, random.randint(100,200))
 
 	return output
 
-print(fve())
+
 
 	# <QUESTION 6>
 
