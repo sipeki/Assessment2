@@ -280,6 +280,28 @@ def eight(input,  a):
 	# There are no hints for this question.
 
 def nine(string1, string2):
+
+	output = True
+
+	if len(string1) > len(string1):
+		stringlong = string1
+		stringshort = string2
+	else:
+		stringlong = string2
+		stringshort = string1
+
+
+	# for i in range(len(stringshort)):
+	for i in stringshort:
+		if i not in stringlong:
+			output = False
+
+
+	return output
+
+nine("god", "dog")
+
+
     return False
 
 	# <QUESTION 10>
