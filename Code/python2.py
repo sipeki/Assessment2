@@ -135,7 +135,8 @@ def four(input1, input2):
 
 	# <QUESTION 5>
 
-	# Write a function to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
+	# Write a function to randomly generate a list with 5 even numbers between
+	# 100 and 200 inclusive.
     
     # <EXAMPLES>
     
@@ -151,10 +152,16 @@ def five():
 	output = []
 
 	for i in range(5):
-		output.insert(i, random.randint(100,200))
+		while True:
+			n = random.randint(100,200)
+			if n % 2 == 0:
+				break
+
+		output.insert(i, n)
 
 	return output
 
+print(five())
 
 
 	# <QUESTION 6>
