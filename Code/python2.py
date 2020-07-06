@@ -119,12 +119,12 @@ def three(a):
 
 def four(input1, input2):
 	output = ""
-	for i in range(len(input)):
-		output = input1[i] + input2[i]
+	for i in range(len(input1)):
+		output = output + input1[i] + input2[i]
 
 	return output
 
-four("String","Fridge")
+
 
 	# <QUESTION 5>
 
