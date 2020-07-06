@@ -45,12 +45,12 @@ from Code import python2
 #    assert split(python2.five()) == True
 #    assert split(python2.five()) == True
 
-def test_six():
-    assert python2.six("ilovepy") == True
-    assert python2.six("welovepy") == True
-    assert python2.six("welovepyforreal") == False
-    assert python2.six("pyiscool") == False
-    assert python2.six("hurrayforpY") == True
+#def test_six():
+#    assert python2.six("ilovepy") == True
+#    assert python2.six("welovepy") == True
+#    assert python2.six("welovepyforreal") == False
+#    assert python2.six("pyiscool") == False
+#    assert python2.six("hurrayforpY") == True
 
 
 #def test_seven():

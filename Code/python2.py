@@ -253,13 +253,17 @@ def seven(a, b, c):
 def eight(input,  a):
 
 	m = int(len(input)/2)
-	t = (a-1)/2
+	t = int((a-1)/2)
 
-	output = input[0:(m-t)] + input[(m-t):len(input)]
+	output = input[0:(m-t)] + input[(m+t+1):len(input)]
 
 
 
 	return output
+
+
+
+
 
 	# <QUESTION 9>
 
