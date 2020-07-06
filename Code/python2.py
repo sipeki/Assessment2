@@ -88,7 +88,12 @@ def two(input):
 	# What happens if you multiply a string by a number?
 
 def three(a):
-	return 1
+
+	output = a + int(str(a) + str(a)) + int(str(a) + str(a) + str(a)) + + int(str(a) + str(a) + str(a) + str(a))
+
+	return output
+
+
 
 	# <QUESTION 4>
 
