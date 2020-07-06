@@ -61,18 +61,17 @@ def one(input):
 def two(input):
 	output = True
 	if input > 1:
-		for i range(2,input):
+		for i in range(2,input):
 			if (input % i) == 0:
 				output = False
 				break
 	else:
 		output = False
 
+	return output
 
-    return output
 
 
-print(two())
 
 	# <QUESTION 3>
 
