@@ -30,7 +30,17 @@
 	# How does a for loop iterate through a string?
 
 def one(input):
-	return ""
+
+	output = ""
+	for i in range(len(input)):
+		for l in range(3)
+			output = output + input[i]
+
+
+	return output
+
+print(one("The"))
+
 
 	# <QUESTION 2>
 
