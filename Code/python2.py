@@ -39,12 +39,13 @@ def one(input):
 
 	return output
 
-print(one("AAbb"))
+
 
 
 	# <QUESTION 2>
 
-    #  Write a function which returns the boolean True if the input is only divisible by one and itself.
+    #  Write a function which returns the boolean True if the input is only divisible
+	#  by one and itself.
     
     # The function should return the boolean False if not.
 
@@ -58,7 +59,20 @@ print(one("AAbb"))
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(input):
-    return False
+	output = True
+	if input > 1:
+		for i range(2,input):
+			if (input % i) == 0:
+				output = False
+				break
+	else:
+		output = False
+
+
+    return output
+
+
+print(two())
 
 	# <QUESTION 3>
 
