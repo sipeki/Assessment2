@@ -33,13 +33,13 @@ def one(input):
 
 	output = ""
 	for i in range(len(input)):
-		for l in range(3)
+		for l in range(3):
 			output = output + input[i]
 
 
 	return output
 
-print(one("The"))
+print(one("AAbb"))
 
 
 	# <QUESTION 2>
