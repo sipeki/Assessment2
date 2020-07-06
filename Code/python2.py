@@ -179,14 +179,18 @@ def five():
 
 	# <HINT>
 	# There are no hints for this question.
-    
+
+
 def six(input):
+
+	input = input.lower()
 	output = False
 	if input[(len(input) - 2):len(input)] == "py":
 		output = True
 
 
 	return output
+
 
 
 
