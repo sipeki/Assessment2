@@ -113,11 +113,18 @@ def three(a):
 	# four("return","letter") → "rleettutrenr"
 
 	# <HINT>
-	# Use your CLI to access the Python documentation and get help manipulating strings - help(list.insert).
+	# Use your CLI to access the Python documentation and get help manipulating strings -
+	# help(list.insert).
 	# How would you seperate a string into characters?
 
 def four(input1, input2):
-	return ""
+	output = ""
+	for i in range(len(input)):
+		output = input1[i] + input2[i]
+
+	return output
+
+four("String","Fridge")
 
 	# <QUESTION 5>
 
