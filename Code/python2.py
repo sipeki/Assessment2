@@ -236,9 +236,10 @@ def seven(a, b, c):
 
 	# <QUESTION 8>
 
-    # Given a string and an integer, n, return a string that removes n letters from the 'middle' of the string.
-	
-	# The string length will be at least n, and be odd when the length of the input is odd, so there will always be a 'middle'.
+    # Given a string and an integer, n, return a string that removes n letters from
+# 	the 'middle' of the string.
+# 	The string length will be at least n, and be odd when the length of the input is odd,
+# 	so there will always be a 'middle'.
 
     # <EXAMPLES>
 
@@ -250,7 +251,15 @@ def seven(a, b, c):
     # Use the cli to access the documentation help(str.replace)
 
 def eight(input,  a):
-	return ""
+
+	m = int(len(input)/2)
+	t = (a-1)/2
+
+	output = input[0:(m-t)] + input[(m-t):len(input)]
+
+
+
+	return output
 
 	# <QUESTION 9>
 
